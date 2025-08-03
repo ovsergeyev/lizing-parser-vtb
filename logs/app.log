@@ -1,0 +1,22 @@
+2025-08-03 12:37:45,672 [INFO] app: =================START=================
+2025-08-03 12:37:45,672 [INFO] app: =======================================
+2025-08-03 12:37:45,672 [INFO] app: =======================================
+2025-08-03 12:37:54,525 [DEBUG] app: Запуск crawler_pagination
+2025-08-03 12:37:54,628 [DEBUG] app: Переход на страницу https://www.vtb-leasing.ru/truck/f/clear/?PAGEN_2=2
+2025-08-03 12:37:56,941 [DEBUG] app: Обошли 1 ссылок пагинации
+2025-08-03 12:37:56,942 [DEBUG] app: Запуск crawler_pages
+2025-08-03 12:37:58,997 [DEBUG] app: Запуск parse_pages
+2025-08-03 12:37:59,202 [DEBUG] app: Добавляем avto=VTBAuto(slug='shacman-sx4259y6334c-al-226117-28-24-lpts', title='SHACMAN SX4259Y6334C', image_url='https://www.vtb-leasing.ru/upload/resize_cache/iblock/d9e/h7flqcyypc8xgkd7ir3fjud4jgf6tocc/900_576_2/7.webp', year_of_release=2022, mileage=85265, location='Воронеж', vin='LZGJL4Z48NX250215', price=6460000, old_price=None, offer_code='АЛ 226117/28-24 ЛПЦ')
+2025-08-03 12:38:04,121 [DEBUG] app: Запуск parse_pages
+2025-08-03 12:38:04,266 [DEBUG] app: Добавляем avto=VTBAuto(slug='sitrak-c7h-al-242200-01-23-nsk', title='SITRAK C7H', image_url='https://www.vtb-leasing.ru/upload/resize_cache/iblock/ef6/fvdkvkhmxr23hafm3a7zy3hbt5oz0lnq/900_576_2/IMG_8102.webp', year_of_release=2023, mileage=284849, location='Новосибирск', vin='LZZ7CCWD8PC617964', price=3272500, old_price=None, offer_code='АЛ 242200/01-23 НСК')
+2025-08-03 12:38:14,549 [DEBUG] app: Запуск parse_pages
+2025-08-03 12:38:14,707 [DEBUG] app: Добавляем avto=VTBAuto(slug='shacman-sx33186v366-al-197582-08-24-spb', title='SHACMAN SX33186V366', image_url='https://www.vtb-leasing.ru/upload/resize_cache/iblock/b68/lqhlawtqfg8elqb7urnc41wilk686xj8/900_576_2/DSC03034.webp', year_of_release=2023, mileage=44309, location='Санкт-Петербург', vin='LZGJX4V63PX113990', price=4785500, old_price=None, offer_code='АЛ 197582/08-24 СПБ')
+2025-08-03 12:38:21,764 [DEBUG] app: Запуск parse_pages
+2025-08-03 12:38:21,909 [DEBUG] app: Добавляем avto=VTBAuto(slug='sitrak-c7h-al-198599-16-23-izhk', title='SITRAK C7H', image_url='https://www.vtb-leasing.ru/upload/resize_cache/iblock/e54/x3aepq89kjczxlav7t2gsgq27a7a7q96/900_576_2/IMG_0675.webp', year_of_release=2023, mileage=187889, location='Казань', vin='LZZ7CCWD1PC616316', price=4029000, old_price=None, offer_code='АЛ 198599/16-23 ИЖК')
+2025-08-03 12:38:27,173 [DEBUG] app: Запуск parse_pages
+2025-08-03 12:38:27,356 [DEBUG] app: Добавляем avto=VTBAuto(slug='sitrak-c7h-al-189664-22-24', title='SITRAK C7H', image_url='https://www.vtb-leasing.ru/upload/resize_cache/iblock/9bd/mi2ek6szhsxi9tq2ss3smtyyo0x7quqi/900_576_2/IMG_20250529_155637.webp', year_of_release=2024, mileage=123249, location='Москва', vin='LZZ7CCWD0RC537559', price=4845000, old_price=None, offer_code='АЛ 189664/22-24')
+2025-08-03 12:38:40,222 [DEBUG] app: Запуск parse_pages
+2025-08-03 12:38:40,366 [DEBUG] app: Добавляем avto=VTBAuto(slug='shacman-sx331863366-al-239052-02-23-krd', title='SHACMAN SX331863366', image_url='https://www.vtb-leasing.ru/upload/iblock/382/l7mdpor9c4iall2y31u4ca7vc4s9deb3/IMG_6821.webp', year_of_release=2022, mileage=195171, location='Краснодар', vin='LZGJX4Z6XNX054038', price=3162000, old_price=None, offer_code='АЛ 239052/02-23 КРД')
+2025-08-03 12:38:52,050 [DEBUG] app: Запуск parse_pages
+2025-08-03 12:38:52,209 [DEBUG] app: Добавляем avto=VTBAuto(slug='shacman-sx331863366-al-241444-01-23-spb', title='SHACMAN SX331863366', image_url='https://www.vtb-leasing.ru/upload/resize_cache/iblock/2a3/8a5icr0t50mdblvb0sh1gkd62euh4f0v/900_576_2/20250709_144806.webp', year_of_release=2023, mileage=158109, location='Москва', vin='LZGJX4Z68PX041288', price=3519000, old_price=None, offer_code='АЛ 241444/01-23 СПБ')
+2025-08-03 12:38:56,277 [INFO] app: ==================END==================

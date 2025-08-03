@@ -1,0 +1,20 @@
+{
+	"explorer.compactFolders": false,
+    "cSpell.enabled": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.formatOnSave": true,
+    "[python]": {
+        "formatting.provider": "black",
+        "formatting.blackArgs": [
+            "--line-length=120"
+        ],
+        "linting.pylintEnabled": true,
+        "linting.enabled": true,
+        "linting.lintOnSave": true,
+        "linting.mypyEnabled": true
+    },
+
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
+}
