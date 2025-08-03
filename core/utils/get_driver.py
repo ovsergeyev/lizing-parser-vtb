@@ -19,10 +19,10 @@ def get_driver() -> WebDriver:
     # options.add_argument("--v=1")
 
     # For docker options
-    # options.add_argument("--headless")
-    # options.add_argument("--disable-gpu")
-    # options.add_argument("--no-sandbox")
-    # options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--headless")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
 
     # Anonimus options
     options.add_argument(
