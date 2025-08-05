@@ -30,8 +30,9 @@ class TgBot:
             caption_lines.append(f"<b>Год выпуска:</b> <code>{auto.year_of_release}</code>")
 
         if getattr(auto, "mileage", None):
-            mileage_formatted = f"{auto.mileage:,}".replace(",", " ")
-            caption_lines.append(f"<b>Пробег:</b> <code>{mileage_formatted} км.</code>")
+            if auto.mileage != -1:
+                mileage_formatted = f"{auto.mileage:,}".replace(",", " ")
+                caption_lines.append(f"<b>Пробег:</b> <code>{mileage_formatted} км.</code>")
 
         if getattr(auto, "vin", None):
             caption_lines.append(f"<b>VIN:</b> <code>{auto.vin}</code>")
