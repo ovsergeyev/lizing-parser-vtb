@@ -23,6 +23,10 @@ def get_driver() -> WebDriver:
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    
+    options.add_argument("--disk-cache-dir=/dev/null")
+    options.add_argument("--incognito")
+    options.add_argument("--disable-application-cache")
 
     # Anonimus options
     options.add_argument(

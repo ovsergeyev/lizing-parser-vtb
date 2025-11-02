@@ -9,7 +9,7 @@ from core.utils.crawler_pages import crawler_pages
 BASE_URL = "https://www.vtb-leasing.ru/truck/"
 from logger import get_logger, clear_log, setup_logging
 
-# clear_log()
+clear_log()
 setup_logging()
 logger = get_logger("app")
 
