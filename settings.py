@@ -37,10 +37,10 @@ class Settings:
     bot: Bot
 
 
-def load_settings(path: str = ".env") -> Settings:
+def load_settings() -> Settings:
     # os.environ.clear()
     env = Env()
-    env.read_env(path)
+    env.read_env()
     return Settings(
         mode=env.str("MODE"),
         log=Log(
@@ -62,5 +62,5 @@ def load_settings(path: str = ".env") -> Settings:
     )
 
 
-settings = load_settings(".env")
+settings = load_settings()
 print(settings)
